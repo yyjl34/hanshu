@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>函数</title>
+</head>
+<body>
+<script>
+
+//定义函数方式1
+//    function fun(){
+//        console.log(1);
+//    }
+//    fun(实际参数);
+//定义函数方式2
+//    let fun=function () {
+//        console.log(1);
+//    }
+//    fun();
+
+// let fun=new Function();
+//冒泡排序
+//    function mao(arr,type='asc') {       //type='asc(升序)';desc(降序)
+//        for(let i=0;i<arr.length;i++) {
+//            for (let j = 0; j < arr.length - i - 1; j++) {
+//                if (type == 'asc') {
+//                    if (arr[j] > arr[j + 1]) {
+//                        let tmp = arr[j];
+//                        arr[j] = arr[j + 1];
+//                        arr[j + 1] = tmp;
+//                    }
+//                } else {
+//                    if (arr[j] < arr[j + 1]) {
+//                        let tmp = arr[j];
+//                        arr[j] = arr[j + 1];
+//                        arr[j + 1] = tmp;
+//                    }
+//                }
+//            }
+//        }
+//        console.log(arr);
+//    }
+//    mao(arr=[2,5,1,0,6,3,4],'asc');
+//求数组的和
+//    function add(arr) {
+//        let sum=0;
+//        for(let i=0;i<arr.length;i++){
+//            if(arr[i] instanceof Array){        //instanceof Array检测为布尔类型
+//                for(let j=0;j<arr[i].length;j++){
+//                    sum+=arr[i][j];
+//                }
+//            }else {
+//                sum+=arr[i];
+//            }
+//
+//        }
+//        console.log(sum);
+//    }
+//    add(arr=[2,5,1,0,6,3,4]);
+
+//截取一个数组，截取下标为a-b的范围
+//    function jie(arr,a,b) {
+//           if(a<=0){
+//               a=0;
+//           }
+//           if(b>arr.length-1){
+//               b=arr.length-1;
+//           }
+//        let brr=[];
+//        for(let i=a;i<=b;i++){
+//                brr[brr.length]=arr[i];
+//        }
+//        console.log(brr);
+//
+//    }
+//    jie([1,2,3,4,5,6],1,4)
+
+//选择排序、冒泡排序、求一个二维数组中长度最长的数组、求一个二维数组的和、求一个二维数组的最大值、复制一个二维数组
+//找出一个数字数组里边大于5的个数、选出数组里大于5的数组成新的数组、输入一个数字或者字符添加到数组最后、将数组中的数字内容求和
+//判断数组中是否所有数字都大于0、合并两个数组、找到数组中某一个值的下标（）、将数组反转、移除数组中等于3的元素、删除数组的第一个值
+//在数组的前面添加一个值、n行m列的表格、n*n的乘法表、输入一个数判断是不是质数
+</script>
+</body>
+</html>
